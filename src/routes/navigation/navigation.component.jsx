@@ -4,6 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 import { Fragment } from "react";
 
 import pmcLogo from "../../assets/images/logo.png";
+import Carousel from "../../components/carousel/carousel.component";
 
 const Navigation = () => {
   return (
@@ -33,6 +34,7 @@ const Navigation = () => {
           </Link>
         </div>
       </div>
+      
       <Outlet />
     </Fragment>
   );

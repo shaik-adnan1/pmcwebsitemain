@@ -1,0 +1,131 @@
+.home_content_container {
+    /* height: 100vh; */
+font-family: 'Montserrat', sans-serif;
+width: 98vw;
+margin: 0px auto;
+}
+
+.highlight_span {
+    background-color: #fff;
+    color: #ff3e3e;
+    padding: 5px;
+}
+
+.home_content {
+    box-shadow: 8px 8px #000;
+    color: #fff;
+    border-radius: 10px;
+    margin: 50px 40px;
+    padding: 50px;
+    width: 50%;
+    transform: rotate(-5deg);
+    display: inline-block;
+    /* font-size: 1rem; */
+    transition: all .4s ease;
+    margin-left: 100px;
+    background-color: #fff;
+    color: #ff3e3e;
+    border: 2px solid #000;
+}
+
+.home_content:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 15px 15px #000;
+}
+
+.test_video {
+    border-radius: 20px;
+}
+
+.home_content_1, .home_content_3 {
+    transform: rotate(0deg);
+    width: 85%;
+    margin: 50px;   
+    display: flex;
+    background-color: #ff3e3e;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.home_content_3 {
+    display: block;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.home_content_3 .home_content_text {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.home_content_1_text {
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+.home_content_text {
+    line-height: 30px;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.home_content_2 {
+    display: inline-block;
+    position: relative;
+}
+
+.home_content_2 > .home_content:nth-child(3) {
+    margin-left: 250px;
+}
+
+.home_content_2 > .home_content:nth-child(3) > .home_content_heading{
+    color: #0e43f8;
+    
+     /* text-shadow: 4px 4px 0px #ffffff61; */
+    
+}
+
+.home_content_2 > .home_content:nth-child(5) > .home_content_heading {
+    color: #f8ef0e;
+}
+
+.home_content_2 > .home_content:last-child {
+    margin-top: 100px;
+}
+
+/* .arrow */
+
+.arrow_big_style {
+    height: 300px;
+    
+}
+
+#arrow_left_style {
+    float: left;
+    /* height: 250px; */
+    transform: translate(230px, 180px);
+}
+
+#arrow_right_style {
+    float: right;
+    transform: translate(-180px, 250px);
+}
+
+
+.home_content_heading {
+    text-transform: uppercase;
+    /* color: #000; */
+     text-shadow: 2px 2px 0px #000;
+     /* border: 1px solid red; */
+     margin: 0;
+     font-size: 3rem;
+
+}
+
+
+
+
+
+
