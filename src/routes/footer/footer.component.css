@@ -1,5 +1,75 @@
 .footer_container {
-    height: 200px;
-    width: 100%;
-    background-color: red;
+  /* position: absolute; */
+  /* bottom: -200px; */
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.footer_content {
+  color: #000;
+}
+
+.footer_icons {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 50px;
+  height: 45px;
+  transition: all .4s ease;
+}
+
+.footer_icons:hover {
+  /* height: 50px; */
+  transform: scale(1.2);
+}
+
+.facebook_icon {
+  color: blue;
+  border: 3px solid blue;
+}
+
+.facebook_icon:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.discord_icon {
+  color: #7289DA;
+  border: 3px solid #7289DA;
+}
+
+
+.discord_icon:hover {
+  background-color: #7289DA;
+  color: #fff;
+}
+
+
+.gmail_icon {
+  color: #D44638;
+  border: 3px solid #D44638;
+}
+
+
+.gmail_icon:hover {
+  background-color: #D44638;
+  color: #fff;
+}
+
+.youtube_icon {
+  color: red;
+  border: 3px solid red;
+}
+
+
+.youtube_icon:hover {
+  background-color: red;
+  color: #fff;
 }

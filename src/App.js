@@ -1,5 +1,12 @@
 import logo from "./logo.svg";
 
+// import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
+
+// // Specify all properties: name, family, style
+// icon({ name: "user", family: "classic", style: "solid" });
+// icon({ name: "user", family: "classic", style: "regular" });
+
+
 import "./App.css";
 
 import Home from "./routes/home/home.component";
@@ -21,9 +28,7 @@ const App = () => {
         <Route path='events' element={<Events />} />
         <Route path='peerMentors' element={<Mentors />} />
         <Route path='contacts' element={<Contact />} />
-      </Route>
-      <Route path="/" element={<Footer />}>
-
+        {/* <Route path="/" element={<Footer />}></Route> */}
       </Route>
     </Routes>
   );

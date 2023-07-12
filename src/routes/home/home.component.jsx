@@ -14,7 +14,7 @@ import Footer from "../footer/footer.component";
 const Home = () => {
   return (
     <Fragment>
-      <div className='home_hero_section'>
+      <div className='home_hero_section section'>
         <div className='hero_img'>
           <img src={heroBackground} alt='' className='hero_bg_img' />
         </div>
@@ -40,9 +40,9 @@ const Home = () => {
       <div className='home_content_section'>
         <HomeData />
       </div>
-      {/* <div className="footer_section">
+      <div className="footer_section">
         <Footer />
-      </div> */}
+      </div>
     </Fragment>
   );
 };

@@ -46,11 +46,14 @@ const HomeData = () => {
             <h1 className='home_content_heading'>Who are peer mentors</h1>
             <p className='home_content_text'>
               Peer Mentors guide mentees while they pursue academics or career
-              opportunities. <span className='highlight_span'>They are role models who provide emotional support
-              and validation, assist their mentees in navigating the campus
-              resources, and help their peers become more engaged in the VIT-AP
-              community </span>. The mentors are not necessarily always a professor or
-              alumni.
+              opportunities.{" "}
+              <span className='highlight_span'>
+                They are role models who provide emotional support and
+                validation, assist their mentees in navigating the campus
+                resources, and help their peers become more engaged in the
+                VIT-AP community{" "}
+              </span>
+              . The mentors are not necessarily always a professor or alumni.
             </p>
           </div>
           <div className='test_video'>
@@ -70,7 +73,7 @@ const HomeData = () => {
             return (
               <Fragment>
                 <div className='home_content'>
-                  <h1 className='home_content_heading'>{cur.heading}</h1>
+                  <h1 className='home_content_heading heading'>{cur.heading}</h1>
                   <p className='home_content_text'>{cur.content}</p>
                 </div>
                 {!(i + 1 === homeData.length) ? (
@@ -86,19 +89,16 @@ const HomeData = () => {
           })}
         </div>
         <div className='home_content_3 home_content'>
-          <h1 className='home_content_heading'>CONNECT WITH A MENTOR</h1>
+          <h1 className='home_content_heading heading'>CONNECT WITH A MENTOR</h1>
           <p className='home_content_text'>
-            If you are a current or prospective{" "}
-            <span className='highlight_span'>
-              first-year student looking to connect with a mentor
-            </span>
-            , please contact
+            If you are a current or prospective first-year student looking to
+            connect with a mentor , please contact
             <a
               href='peermentoringservices.vitap@gmail.com'
               className='mail_link'
             >
               {" "}
-              <span className='highlight_span'>
+              <span className='highlight_span highlight_span_ext'>
                 peermentoringservices.vitap@gmail.com
               </span>
             </a>{" "}

@@ -1,0 +1,26 @@
+.about_section_header{
+    background-image: url("../../assets/wave.png");
+    /* width: 100%; */
+    background-size: cover;
+    height: 50%;
+    position: absolute;
+    width: 100%;
+    top: -60px;
+    animation: nav_animation 1s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_section_header h1 {
+    margin-bottom: 70px;
+
+    text-shadow: 2px 2px #000;
+    margin-left: 400px;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #fff;
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Gruppo', sans-serif; */
+    font-family: 'Yatra One', cursive; 
+}
