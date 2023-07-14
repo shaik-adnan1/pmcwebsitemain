@@ -21,15 +21,17 @@ import Footer from "./routes/footer/footer.component";
 
 const App = () => {
   return (
+    
     <Routes>
-      <Route path='/' element={<Navigation />}>
+      {/* <Route path='/' element={<Navigation />}>  */}
+      
         <Route index element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='events' element={<Events />} />
         <Route path='peerMentors' element={<Mentors />} />
         <Route path='contacts' element={<Contact />} />
         {/* <Route path="/" element={<Footer />}></Route> */}
-      </Route>
+      {/* </Route> */}
     </Routes>
   );
 };
