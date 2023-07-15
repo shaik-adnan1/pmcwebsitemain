@@ -1,16 +1,17 @@
 
 .about_section {
     position: relative;
+    height: 100%;
+
 }
 
 .about_section_header {
   /* background-image: url("../../assets/wave.png"); */
   /* width: 100%; */
-  background-size: cover;
+  /* background-size: cover; */
   /* height: 50%; */
   /* position: absolute; */
   /* width: 100%; */
-  transform: translateY(200px);
   animation: nav_animation 1s forwards;
   display: flex;
   /* justify-content: center; */
@@ -19,8 +20,9 @@
   /* margin-bottom: 50px; */
 }
 
-.about_section_header h1 {
-  margin-bottom: 70px;
+.header h1 {
+  /* margin-bottom: 70px; */
+  z-index: 999;
   background-color: #ff3e3e;
   border: 1px solid #000;
   /* text-shadow: 2px 2px #000; */
@@ -28,14 +30,14 @@
   text-transform: uppercase;
   font-size: 60px;
   /* font-family: 'Rubik Dirt', cursive; */
-  position: relative;
+  /* position: relative; */
   /* background-color: #fff; */
-  padding: 10px;
+  /* padding: 10px 60px; */
   border-radius: 10px;
-  margin-top: 100px;
+  margin-top: 120px;
   color: #fff;
-  padding: 10px 20px;
-  margin-left: 50px;
+  padding: 10px 100px;
+  margin-left: 200px;
   /* font-family: 'Orbitron', sans-serif; */
   font-family: "Gruppo", sans-serif;
   font-weight: 900;

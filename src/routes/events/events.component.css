@@ -1,0 +1,11 @@
+.events_section {
+    position: relative;
+    height: 100%;
+}
+
+.events_sec_header h1{
+    /* margin: 0; */
+    /* margin-top: 120px; */
+    /* transform: translateY(100px); */
+    position: relative;
+}

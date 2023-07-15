@@ -9,15 +9,18 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
+  position: relative;
   width: 99%;
   margin-left: 5px;
+  /* bottom: 0; */
   /* bottom: 0; */
 }
 
 
 .footer_content {
   color: #000;
+  /* position: absolute; */
+  /* bottom: 0; */
 }
 
 .footer_icons {

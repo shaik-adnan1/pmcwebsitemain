@@ -40,9 +40,9 @@ const Home = () => {
       <div className='home_content_section'>
         <HomeData />
       </div>
-      <div className="footer_section">
+      {/* <div className="footer_section">
         <Footer />
-      </div>
+      </div> */}
     </Fragment>
   );
 };
