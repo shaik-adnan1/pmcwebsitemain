@@ -4,13 +4,19 @@
   align-items: center;
   position: relative;
   float: right;
-  height: 400px;
-  width: 520px;
   /* padding: 20px; */
+  /* overflow: hidden; */
+  height: 400px;
   margin-right: 90px;
   margin-top: 200px;
-  /* overflow: hidden; */
+  width: 520px;
   animation: fadeInRight 0.8s ease;
+  /* border: 1px solid #000; */
+}
+
+.carousel_cont_style {
+  
+
 }
 
 .carousel_container img {
@@ -25,7 +31,7 @@
 .carousel_dir {
   position: absolute;
   display: flex;
-  bottom: -30px;
+  bottom: -40px;
   left: 10px;
   /* right: 100px; */
   /* justify-content: space-between; */
@@ -39,7 +45,7 @@
   width: fit-content;
   background-color: #fd3939;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
   border-radius: 50%;
   margin-left: 10px;
   cursor: pointer;

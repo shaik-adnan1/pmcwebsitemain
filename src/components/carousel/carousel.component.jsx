@@ -41,11 +41,12 @@ const Carousel = ({ slides }) => {
   console.log(current);
   return (
     <>
-      <div className='carousel_container'>
+      <div className='carousel_container carousel_cont_style'>
+        {/* <div className="carousel_cont_style"></div> */}
         <div className='carousel_dir'>
           <ArrowLeft
             className='left_arrow carousel_arrows'
-            size={15}
+            size={20}
             weight='bold'
             onClick={pervSlide}
           />
@@ -55,28 +56,26 @@ const Carousel = ({ slides }) => {
             weight='bold'
             onClick={nextSlide}
           />
+          {/* <ArrowRight size={24} className='right_arrow carousel_arrows' /> */}
         </div>
-        <div className="slider_dots">
-          {slides.map(( _ , i) => {
-            return (
-              <div className="slide_indicators"></div>
-            )
+        <div className='slider_dots'>
+          {slides.map((_, i) => {
+            return <div className='slide_indicators'></div>;
           })}
         </div>
-          {slides.map((cur, index) => {
-            return (
-              <Fragment>
-                
-                <div
-                  className={index === current ? "slide active" : "slide"}
-                  key={cur.id}
-                >
-                  {index === current && <img src={cur.src} key={cur.id} alt='' />}
-                </div>
-              </Fragment>
-            );
-          })}
-        </div>
+        {slides.map((cur, index) => {
+          return (
+            <Fragment>
+              <div
+                className={index === current ? "slide active" : "slide"}
+                key={cur.id}
+              >
+                {index === current && <img src={cur.src} key={cur.id} alt='' />}
+              </div>
+            </Fragment>
+          );
+        })}
+      </div>
       {/* <div className='carousel-container'>
           <div className='carouse_im  g-container'>
             <img src={carouselImg} alt="" /> 

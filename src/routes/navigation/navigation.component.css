@@ -26,9 +26,12 @@
 
 .navigation {
   position:  fixed;
-  height: 5vh;
-  width: 97.3%;
-  padding: 15px 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* height: 5vh; */
+  width: 100%;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */

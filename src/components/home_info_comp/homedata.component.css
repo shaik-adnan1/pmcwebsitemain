@@ -44,8 +44,8 @@ margin: 0px auto;
 
 .home_content_1, .home_content_3  {
     transform: rotate(0deg);
-    width: 85%;
-    margin: 50px;   
+    width: 90%;
+    margin: 60px;   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,7 @@ margin: 0px auto;
 }
 
 .home_content_2 {
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
 }
 
@@ -116,7 +116,7 @@ margin: 0px auto;
 #arrow_left_style {
     float: left;
     /* height: 250px; */
-    transform: translate(230px, 180px);
+    transform: translate(230px, 180px);  
 }
 
 #arrow_right_style {

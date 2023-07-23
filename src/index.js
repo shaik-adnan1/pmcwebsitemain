@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import ScrollToTop from "./scrollToTop";
+
 import { BrowserRouter } from "react-router-dom";
 import Navigation from "./routes/navigation/navigation.component";
 import Footer from "./routes/footer/footer.component";
@@ -14,6 +16,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Navigation />
+    <ScrollToTop />
       <App />
       <Footer />
     </BrowserRouter>

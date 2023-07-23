@@ -23,7 +23,7 @@
 
 .hero_section_name_main {
     position: absolute;
-    top: 9rem;
+    top: 15rem;
     left: 3rem;
     display: inline-block;
 }
@@ -45,7 +45,7 @@
 
 .hero_section_name_main_1 span:last-child {
     position: absolute;
-    bottom: -4rem;
+    /* bottom: -4rem; */
     left: .8rem;
 }
 
@@ -59,7 +59,7 @@
     /* animation: fadeIn .8s ease; */
 
   /* top: 2rem; */
-  margin-top: 2rem;
+  margin-top: 5rem;
     animation: fadeInTop .8s ease;
 }
 

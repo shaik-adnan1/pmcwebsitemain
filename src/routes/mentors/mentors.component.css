@@ -1,0 +1,22 @@
+.mentor_section_heading {
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.mentors_heading {
+    position: relative;
+    text-transform: uppercase;
+     font-family: "Gruppo", sans-serif;
+     border: 2px solid #000;
+     width: fit-content;
+     /* text-align: center; */
+     padding: 20px 40px;
+     border-radius: 10px;
+     color: #fff;
+     background-color: #ff3f3f;
+      -webkit-box-shadow: 6px 6px 0px -1px rgb(0, 0, 0);
+  -moz-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.9);
+  box-shadow: 6px 6px 0px -1px rgb(0, 0, 0);
+}

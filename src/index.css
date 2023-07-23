@@ -22,6 +22,7 @@ font-family: 'Rubik Dirt', cursive;
   color:  #ff5252;
 }
 
+
 body {
   padding: 0;
   margin: 0;
@@ -32,6 +33,7 @@ body {
     "Helvetica Neue", sans-serif, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 /* default link css */
