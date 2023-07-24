@@ -14,6 +14,7 @@ import About from "./routes/about/about.component";
 import Contact from "./routes/contact/contact.component";
 import Events from "./routes/events/events.component";
 import Mentors from "./routes/mentors/mentors.component";
+import ScrollToTop from "./scrollToTop";
 
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./routes/navigation/navigation.component";

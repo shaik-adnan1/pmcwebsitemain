@@ -20,3 +20,93 @@
   -moz-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.9);
   box-shadow: 6px 6px 0px -1px rgb(0, 0, 0);
 }
+
+.mentors_main_container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mentor_card {
+    background-color: #ff3f3f;
+    border: 2px solid #000;
+    border-radius: 14px;
+    margin: 50px;
+    -webkit-box-shadow: 6px 6px 0px -1px rgb(0, 0, 0);
+  -moz-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.9);
+  box-shadow: 6px 6px 0px -1px rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+}
+
+.mentor_picture img {
+    width: 300px;
+    height: 300px;
+    border-radius: 14px;
+    margin: 20px;
+    -webkit-box-shadow: 6px 6px 0px -1px rgb(0, 0, 0);
+  -moz-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.9);
+  box-shadow: 6px 6px 0px -1px rgb(0, 0, 0);
+
+}
+
+.mentor_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    position: relative;
+}
+
+
+.mentor_name {
+    color: #fff;
+     font-family: "Gruppo", sans-serif;
+        margin-top: -50px;
+     font-size: 25px;
+     border-radius: 14px;
+     text-transform: upe;
+     width: fit-content;
+}
+
+.mentor_quote {
+    margin: 20px 10px;
+    width: 90%;
+    position: relative;
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+.mentor_email {
+    font-weight: 500;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.mentor_email_link {
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.mentor_social_links {
+    position: absolute;
+    /* margin-top: 50px; */
+    bottom: -85px;
+}
+
+.mentor_social_icon {
+    /* height: 100px; */
+    font-size: 25px;
+    color: #fff;
+
+    margin-right: 20px;
+    
+}
+
+.mentor_social_icon:first-child {
+    margin-left: 5px;
+}

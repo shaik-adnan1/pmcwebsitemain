@@ -1,7 +1,11 @@
 import "./contact.component.css";
 
 const Contact = () => {
-  return <div>this is the Contact page</div>;
+  return (
+    <>
+    
+    </>
+  );
 };
 
 export default Contact;
