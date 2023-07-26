@@ -54,7 +54,7 @@ const EventData = () => {
               <div className='event_carousel_container'>
                 <Carousel className="testclass" slides={cur.eventImgs} />
                 <Carousel className="testclass" slides={cur.eventImgs} />
-                
+               
               </div>
             </div>
           );
