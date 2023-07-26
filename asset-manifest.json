@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/shaik-adnan1/pmcwebsitemain/static/css/main.733accc1.css",
+    "main.js": "/shaik-adnan1/pmcwebsitemain/static/js/main.aa0e1d3f.js",
+    "static/media/hc_2.jpg": "/shaik-adnan1/pmcwebsitemain/static/media/hc_2.f40c0c56a096472d2724.jpg",
+    "static/media/hc_4.jpg": "/shaik-adnan1/pmcwebsitemain/static/media/hc_4.327e0187b54fa219038f.jpg",
+    "static/media/hc_3.jpg": "/shaik-adnan1/pmcwebsitemain/static/media/hc_3.a8af5bf751fea751b088.jpg",
+    "static/media/hc_1.jpg": "/shaik-adnan1/pmcwebsitemain/static/media/hc_1.4aa3f136102e05401eaa.jpg",
+    "static/media/vamsi anna.jpeg": "/shaik-adnan1/pmcwebsitemain/static/media/vamsi anna.545823d5a3d5e13ac619.jpeg",
+    "static/media/Gol.jpg": "/shaik-adnan1/pmcwebsitemain/static/media/Gol.af9b2fe90771efcf3125.jpg",
+    "static/media/about_intro.png": "/shaik-adnan1/pmcwebsitemain/static/media/about_intro.21c7e7c496d37262a208.png",
+    "static/media/rocks.jpeg": "/shaik-adnan1/pmcwebsitemain/static/media/rocks.8c527ed6598d35ee7e2b.jpeg",
+    "static/media/logo.png": "/shaik-adnan1/pmcwebsitemain/static/media/logo.3f8c4a2e666105480f80.png",
+    "static/media/4.png": "/shaik-adnan1/pmcwebsitemain/static/media/4.c40c67754eccf1207eb2.png",
+    "static/media/2.png": "/shaik-adnan1/pmcwebsitemain/static/media/2.c7fe208089b8a8a77630.png",
+    "static/media/5.png": "/shaik-adnan1/pmcwebsitemain/static/media/5.b1f964a7b056b19e18aa.png",
+    "static/media/1.png": "/shaik-adnan1/pmcwebsitemain/static/media/1.37bb4d3c35c271c34d45.png",
+    "static/media/events_intro.png": "/shaik-adnan1/pmcwebsitemain/static/media/events_intro.fb744e669239a5f22e51.png",
+    "static/media/3.png": "/shaik-adnan1/pmcwebsitemain/static/media/3.8c2637aa4a4b45bbc334.png",
+    "static/media/garp.jpeg": "/shaik-adnan1/pmcwebsitemain/static/media/garp.754cc151aff0423808bf.jpeg",
+    "static/media/luffy.jpeg": "/shaik-adnan1/pmcwebsitemain/static/media/luffy.6bbbe2150d146c9be7c6.jpeg",
+    "static/media/logo.svg": "/shaik-adnan1/pmcwebsitemain/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shaik-adnan1/pmcwebsitemain/index.html",
+    "static/media/hero_bg_left.svg": "/shaik-adnan1/pmcwebsitemain/static/media/hero_bg_left.5d0b6656d872aab8e2497242ea840d25.svg",
+    "main.733accc1.css.map": "/shaik-adnan1/pmcwebsitemain/static/css/main.733accc1.css.map",
+    "main.aa0e1d3f.js.map": "/shaik-adnan1/pmcwebsitemain/static/js/main.aa0e1d3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.733accc1.css",
+    "static/js/main.aa0e1d3f.js"
+  ]
+}
