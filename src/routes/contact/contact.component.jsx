@@ -38,7 +38,7 @@ const Contact = () => {
           <div className='discord_container'>
             <h3>
               Join our Official Discord Server to hang out with your batchmates
-              and the people behind the Peer Mentoring Committee!
+              and the people behind the Peer Committee!
             </h3>
             <a
               href='https://www.youtube.com/channel/UCjUrifb6-9d7Ksy-Mxr1FYA'
