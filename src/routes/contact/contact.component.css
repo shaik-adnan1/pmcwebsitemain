@@ -1,0 +1,103 @@
+.contact_container {
+  height: 100vh;
+  font-family: "Montserrat Alternates", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.contact_section_heading {
+  /* position: absolute; */
+  /* margin-top: 100px;
+    margin-left: 40px; */
+  border-bottom: 3px solid #ff3f3f;
+  /* border-left: 3px solid #ff3f3f; */
+  background-color: #ff3f3f;
+  /* width: fit-content; */
+  height: 100%;
+  /* border-radius: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_section_heading h1 {
+  font-size: 60px;
+  /* text-transform: uppercase; */
+  font-weight: 300;
+  margin-left: 60px;
+  /* padding: 0 0px 0px 6px; */
+}
+
+.contact_section_details {
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_section_details h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact_section_details a {
+  border: 2px solid #000;
+  background-color: #ff3f3f;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 85px;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 0px -1px rgb(0, 0, 0);
+  -moz-box-shadow: 5px 5px 0px -1px rgba(0, 0, 0, 0.9);
+  box-shadow: 5px 5px 0px 0px rgb(0, 0, 0);
+  text-transform: capitalize;
+}
+
+.insta_youtube_container {
+    display: flex;
+}
+
+.email_container, .insta_container, .youtube_container {
+  /* border: 1px solid red; */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email_container h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.email_container h3,
+.email_container p,
+.email_container a {
+  margin: 15px 0;
+}
+
+.insta_container h3,
+.insta_container a,
+.youtube_container h3, 
+.youtube_container a {
+  margin: 30px 0;
+
+}
+
+.discord_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.discord_container h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
