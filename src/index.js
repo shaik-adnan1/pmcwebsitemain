@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import ScrollToTop from "./scrollToTop";
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as BrowserRouter } from "react-router-dom";
 import Navigation from "./routes/navigation/navigation.component";
 import Footer from "./routes/footer/footer.component";
 
