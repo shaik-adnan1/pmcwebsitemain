@@ -53,7 +53,6 @@ const EventData = () => {
               <h1 className='event_heading heading'>{cur.eventName}</h1>
               <div className='event_carousel_container'>
                 <Carousel className="testclass" slides={cur.eventImgs} />
-                <Carousel className="testclass" slides={cur.eventImgs} />
                
               </div>
             </div>
